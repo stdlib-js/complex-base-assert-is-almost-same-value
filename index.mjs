@@ -1,0 +1,4 @@
+// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-assert-is-almost-same-value@v0.1.0-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-assert-is-almost-same-value@v0.1.0-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-reim@v0.1.3-esm/index.mjs";import m from"https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-reim@v0.1.2-esm/index.mjs";function r(r,i,l){var o,a,d,n,j;return d=r.BYTES_PER_ELEMENT,n=i.BYTES_PER_ELEMENT,4===d&&4===n?(j=e,o=m(r),a=m(i)):(j=s,o=t(r),a=t(i)),j(o[0],a[0],l)&&j(o[1],a[1],l)}export{r as default};
+//# sourceMappingURL=index.mjs.map
